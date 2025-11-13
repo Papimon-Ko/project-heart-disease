@@ -1,0 +1,13 @@
+# Python environment files
+__pycache__/
+*.pyc
+venv/
+.venv/
+.ipynb_checkpoints/
+.DS_Store
+
+# Data and large artifacts (Do NOT commit sensitive data or large models)
+/data/* 
+/notebooks/data/heart-disease.csv
+/result/model.pkl
+/models/
