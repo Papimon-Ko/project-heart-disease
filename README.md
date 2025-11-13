@@ -19,7 +19,8 @@ Based on the initial dataset analysis, Key conclusions were as follows:
 * **Data Size:** 303 rows and 14 columns (attributes)
 * **Missing Data:** **No missing** data in the dataset
 * **Target Distribution:** The data is relatively balanced, with 165 patients with heart disease (target=1) and 138 patients without heart disease (target=0).
-*
+* <img width="850" height="547" alt="target_distribution" src="https://github.com/user-attachments/assets/1bbd70c7-b24a-46cc-a7c1-faf8a34c05eb" />
+
 
 ### 2. Significant Relationships
 
@@ -31,7 +32,8 @@ Based on the initial dataset analysis, Key conclusions were as follows:
 *
 * **Age (age) and Maximum Heart Rate (`thalach`):**
 * It was found that patients with heart disease tend to have higher maximum heart rates.
-*
+* <img width="850" height="547" alt="sex_vs_target" src="https://github.com/user-attachments/assets/30ab58e0-9852-424b-b8cb-29e16835cf8c" />
+
 
 ---
 
@@ -46,6 +48,7 @@ Three models were tested with default hyperparameters on a test set separated fr
 | **Logistic Regression** | **88.52%** |
 | Random Forest | 83.61% |
 | K-Nearest Neighbors | 68.85% |
+<img width="547" height="540" alt="initial_model_scores" src="https://github.com/user-attachments/assets/f15d9f54-8444-475a-9bb1-cafbd79f2aae" />
 
 *
 
@@ -70,3 +73,6 @@ The model that performed best in the initial run was **Logistic Regression** and
 The modified **Logistic Regression** model was the most effective for classifying this type of heart disease, with an accuracy score of over **90%**.
 
 The next step is to evaluate the model against other metrics (e.g., Precision, Recall, F1-Score, ROC-AUC) and create a Confusion Matrix for a more complete understanding.
+
+
+⭐ Author: Papimon Kongnark
